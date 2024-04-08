@@ -1,0 +1,34 @@
+$white : #e8e8e8;
+$first-cta: #FB8500;
+$second-cta: #FFB703;
+
+$UI-Color: #023047;
+$UI-Accent : #219EBC;
+$main-color: #8ECAE6;
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url('./../images/bg/open_space.webp');
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  // .bg-img {
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
+  .bg-filter-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #0000007e;
+  }
+}
